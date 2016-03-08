@@ -1,0 +1,23 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Ehouarn Perret on the threadmill...
+email: ehouarn.perret@outlook.com
+description: > # this means to ignore newlines until "baseurl:"
+  This is my personal website gently hosted on Github pages.
+  
+  I like writing about software development sharing my sorrows and my joys =]
+  
+  The opinions and ideas expressed here are solely my own and do not reflect the views of my employer or the organizations to which I belong.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://ehouarn-perret.github.io" # the base hostname & protocol for your site
+github_username:  ehouarn-perret
+linkedin_username: 
+
+# Build settings
+markdown: kramdown
