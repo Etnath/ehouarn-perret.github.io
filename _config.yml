@@ -11,7 +11,7 @@ email: ehouarn.perret@outlook.com
 description: > # this means to ignore newlines until "baseurl:"
   This is my personal website gently hosted on Github pages.
   
-  I like writing about software development sharing my sorrows and my joys =]
+  I like writing about software development, sharing my sorrows and my joys =]
   
   The opinions and ideas expressed here are solely my own and do not reflect the views of my employer or the organizations to which I belong.
 baseurl: "" # the subpath of your site, e.g. /blog
