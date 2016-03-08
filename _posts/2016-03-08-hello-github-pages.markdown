@@ -5,11 +5,11 @@ date:   2016-03-08 11:34:50 +0800
 categories: jekyll, github pages
 comments: true
 ---
-Well this is a first post written using Jekyll and published on Github Pages. 
+Well this is a first post written using Jekyll and kindly hosted on Github Pages. 
 
-Honestly, I did not bother myself too much and just modified the provided post, that's probably why it looks kind of empty.
+Honestly, I did not bother myself too much and started off modifying the provided post, that's probably why it looks kind of empty.
 
-Anyway, so far, so good it after fighting for a while setting up my local environment under Windows, I can finally start blogging.
+Anyway, so far so good, after fighting for a while against up my portable setup of Ruby (litteraly) against Windows, I can finally start rambling.
 
 Good for me and my coding addiction, Jekyll has a nice syntax highlighting support for code snippets:
 
@@ -21,16 +21,19 @@ print_hi('Michelle')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
-However it seems there is a lack of line numbers, I'm pretty sure there are already some proper workarounds out there.
+ ~~However, it seems there is a lack of builtin support for line numbers, I'm pretty sure there are already some proper workarounds out there.~~
+
+ See below...
 
 **[EDIT]**
 
-Found out a couple of articles, listed below:
+I got my answer thanks to the articles below:
 
 - [Line numbers in Jekyll code blocks]
 - [Jekyll Code Highlight And Line Numbers Problem Solved]
+- [Jekyll Template Documentation]
 
-Basically it just required to add a simple Jekyll tag: 
+Basically to add the line numbers support, it just required to add a very simple Jekyll Liquid tag argument: 
 
     linenos
 
@@ -51,9 +54,11 @@ Apart of that some other resources that can be useful:
 
 
 
+
 [Line numbers in Jekyll code blocks]: https://botleg.com/stories/line-numbers-in-jekyll-code-blocks/
 [Jekyll Code Highlight And Line Numbers Problem Solved]:http://thanpol.as/jekyll/jekyll-code-highlight-and-line-numbers-problem-solved/
 
 [Jekyll Documentation]: http://jekyllrb.com/docs/home
 [Jekyll on Github]:   https://github.com/jekyll/jekyll
 [Jekyll Talk]: https://talk.jekyllrb.com/
+[Jekyll Template Documentation]: https://jekyllrb.com/docs/templates/

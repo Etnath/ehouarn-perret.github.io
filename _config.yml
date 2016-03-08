@@ -9,15 +9,13 @@
 title: Ehouarn Perret on the threadmill...
 email: ehouarn.perret@outlook.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is my personal website gently hosted on Github pages.
-  
-  I like writing about software development, sharing my sorrows and my joys =]
+  I like coding, sharing my joys, my sorrows and whathever I found or created in order to make coding painless.
   
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://ehouarn-perret.github.io" # the base hostname & protocol for your site
-github_username:  ehouarn-perret
+github_username: ehouarn-perret
 linkedin_username: 
-legal: The opinions and ideas expressed here are solely my own and do not reflect the views of my employer or the organizations to which I belong.
+disclaimer: The opinions and ideas expressed here are solely my own and do not reflect the views of my employer or the organizations to which I belong.
 
 # Build settings
 markdown: kramdown
