@@ -2,31 +2,19 @@
 
   <div class="wrapper">
 
-  <h2 class="footer-heading">{{ site.title }}</h2>
-    
-  <div>
-      <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.linkedin_username %}
-          <li>
-            {% include icon-linkedin.html username=site.linkedin_username %}
-          </li>
-          {% endif %}
-      </ul>
+    <div>
+      <!-- 
+      This is the markup for the icon links; moved out to an include because it's very verbose, and you shouldn't ever need to edit the markup (unless you want to re-order the icons);
+      If you want to customize which links appear, define them in the _config.yml file 
+      --> 
+      {% include icon-links.html %} 
     </div>
 
     <div>
-      <p>{{ site.description }}</p>
+      <!-- <p>{{ site.description }}</p> -->
       <p>Disclaimer: <em>{{ site.disclaimer }}</em></p>
     </div>
-  </div>
-
-
+  
   </div>
 
 </footer>

@@ -1,8 +1,7 @@
 ---
 layout: post
-title:  "Hello Github Pages!"
-date:   2016-03-08 11:34:50 +0800
-categories: jekyll, github pages
+title: "Hello Github Pages!"
+tags: Jekyll, Github Pages
 comments: true
 ---
 Well this is a first post written using Jekyll and kindly hosted on Github Pages. 
@@ -50,9 +49,6 @@ Apart of that some other resources that can be useful:
 - [Jekyll Documentation]
 - [Jekyll on Github]
 - [Jekyll Talk]
-
-
-
 
 
 [Line numbers in Jekyll code blocks]: https://botleg.com/stories/line-numbers-in-jekyll-code-blocks/
