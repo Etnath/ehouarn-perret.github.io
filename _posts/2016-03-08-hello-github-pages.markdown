@@ -25,7 +25,8 @@ print_hi('Michelle')
  See below...
 
 **[EDIT]**
-# The trick: read the official document, thoroughly :x
+
+Warm Tip: read the official documentation, thoroughly :x
 
 I got my answer thanks to the articles below:
 

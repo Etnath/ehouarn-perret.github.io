@@ -26,6 +26,12 @@ body
     font-kerning: normal;
 }
 
+p
+{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 
 
 /**
@@ -34,7 +40,8 @@ body
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
-%vertical-rhythm {
+%vertical-rhythm 
+{
     margin-bottom: $spacing-unit / 2;
 }
 
@@ -43,7 +50,8 @@ ul, ol, dl, figure,
 /**
  * Images
  */
-img {
+img 
+{
     max-width: 100%;
     vertical-align: middle;
 }
@@ -57,7 +65,8 @@ figure > img {
     display: block;
 }
 
-figcaption {
+figcaption
+{
     font-size: $small-font-size;
 }
 
