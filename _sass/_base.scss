@@ -3,7 +3,8 @@
  */
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
+dl, dd, ol, ul, figure 
+{
     margin: 0;
     padding: 0;
 }
@@ -61,7 +62,8 @@ img
 /**
  * Figures
  */
-figure > img {
+figure > img 
+{
     display: block;
 }
 
@@ -75,13 +77,16 @@ figcaption
 /**
  * Lists
  */
-ul, ol {
+ul, ol 
+{
     margin-left: $spacing-unit;
 }
 
-li {
+li 
+{
     > ul,
-    > ol {
+    > ol 
+    {
          margin-bottom: 0;
     }
 }
@@ -91,7 +96,8 @@ li {
 /**
  * Headings
  */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 
+{
     font-weight: $base-font-weight;
 }
 
@@ -100,15 +106,18 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * Links
  */
-a {
+a 
+{
     color: $brand-color;
     text-decoration: none;
 
-    &:visited {
+    &:visited 
+    {
         color: darken($brand-color, 15%);
     }
 
-    &:hover {
+    &:hover 
+    {
         color: $text-color;
         text-decoration: underline;
     }
@@ -119,7 +128,8 @@ a {
 /**
  * Blockquotes
  */
-blockquote {
+blockquote 
+{
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
     padding-left: $spacing-unit / 2;
@@ -127,7 +137,8 @@ blockquote {
     letter-spacing: -1px;
     font-style: italic;
 
-    > :last-child {
+    > :last-child 
+    {
         margin-bottom: 0;
     }
 }
@@ -138,18 +149,21 @@ blockquote {
  * Code formatting
  */
 pre,
-code {
+code 
+{
     font-size: 15px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
     background-color: #eef;
 }
 
-code {
+code 
+{
     padding: 1px 5px;
 }
 
-pre {
+pre 
+{
     padding: 8px 12px;
     overflow-x: auto;
 
