@@ -56,9 +56,7 @@ Let's have a look at the skills the exam measure:
 - Serialize and deserialize data
 - Store data in and retrieve data from collections
 
-Among the resources that Microsoft is suggesting to pass the exam there are:
-
-- 
+Among the resources that Microsoft is suggesting to take (and eventually) pass the exam, there are:
 - This video on [Channel 9]
 - The book [Programming in C# Exam Ref 70-483]
 - MVA Training 
