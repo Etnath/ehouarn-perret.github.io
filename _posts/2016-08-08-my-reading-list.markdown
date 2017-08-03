@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "My Reading List"
-tags: Algorithms, Computer Science, Technology
+tags: [Algorithms, Computer Science, Technology]
 comments: true
 ---
 Here is my (very personal) reading list, I only listed below the books that brought something to me.

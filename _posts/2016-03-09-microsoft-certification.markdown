@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Microsoft Certification Exam 70-483 Programming in C#"
-tags: Microsoft, C#, Certification,.NET
+tags: [Microsoft, C#, Certification, .NET]
 comments: true
 ---
 This is a first post part of a short series about how to prepare some Microsoft Certifications.

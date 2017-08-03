@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hello Github Pages!"
-tags: Jekyll, Github Pages
+tags: [Jekyll, Github Pages]
 comments: true
 ---
 Well this is a first post written using Jekyll and kindly hosted on Github Pages. 
