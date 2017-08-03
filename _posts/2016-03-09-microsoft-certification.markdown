@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Microsoft Certification Exam 70-483 Programming in C#"
-tags: Microsoft, C#, Certification,.NET
+tags: [Microsoft, C#, Certification, .NET]
 comments: true
 ---
 This is a first post part of a short series about how to prepare some Microsoft Certifications.
@@ -23,11 +23,10 @@ At the moment, I have four years of experience in .NET C#, doing mostly desktop 
 ## What's on the menu?
 Well there are already plenty of resources to teach you the dos and dont's, so let's go with a recap, FYI this is of course already available on the [Microsoft Certification 70-483 Exam Official Website].
 
-Let's have a look at the skills the exam measure:
+Let's have a look at the skills and / or the knowledge that the exam is supposed to evaluate:
 
 # Manage program flow (25%)
 - Implement multithreading and asynchronous processing
-  dfs
 - Manage multithreading
 - Implement program flow
 - Create and implement events and callbacks
@@ -59,9 +58,18 @@ Let's have a look at the skills the exam measure:
 Among the resources that Microsoft is suggesting to take (and eventually) pass the exam, there are:
 - This video on [Channel 9]
 - The book [Programming in C# Exam Ref 70-483]
+- Another book, [C# in Depth]
 - MVA Training 
+- And mostly at that point, my own practice of the language over 4 years...
 
 [Microsoft Certification 70-483 Exam Official Website]: https://www.microsoft.com/en-us/learning/exam-70-483.aspx
 [Channel 9]: https://channel9.msdn.com/Blogs/mcpexamprep/70-483-Programming-in-C
 [Programming in C# Exam Ref 70-483]: https://www.microsoftpressstore.com/store/exam-ref-70-483-programming-in-c-sharp-9780735676824
 [MVA Training (pdf + videos)]: https://mva.microsoft.com/en-US/training-courses/programming-in-c-jump-start-14254
+[C# in Depth]: https://www.manning.com/books/c-sharp-in-depth-third-edition
+
+## Let's dive deep in the preparation!
+Please consider that the preparation that might good for me is not necesserary the case for you, so think twice before complaining about this training-guide.
+
+* TOC
+{:toc}

@@ -1,21 +1,19 @@
 <!-- And guess where these are defined? Yup, you guessed it: the _config.yml file -->
 {% if site.social_links %}
 <ul style="text-align: center; list-style-type: none;">
+    <!-- Github link -->
+    {% if site.social_links.github_url %}
+    <li style="display:inline-block"><a href="{{ site.social_links.github_url }}" class="icon-link">{% include icons/icon-github.html %}</a></li>
+    {% endif %}
 
-  <!-- Github link -->
-  {% if site.social_links.github_url %}
-  <li style="display:inline-block"><a href="{{ site.social_links.github_url }}" class="icon-link">{% include icons/icon-github.html %}</a></li>
-  {% endif %}
+    <!-- LinkedIn link -->
+    {% if site.social_links.linkedin_url %}
+    <li style="display:inline-block"><a href="{{ site.social_links.linkedin_url }}" class="icon-link">{% include icons/icon-linkedin.html %}</a></li>
+    {% endif %}
 
-  <!-- LinkedIn link -->
-  {% if site.social_links.linkedin_url %}
-  <li style="display:inline-block"><a href="{{ site.social_links.linkedin_url }}" class="icon-link">{% include icons/icon-linkedin.html %}</a></li>
-  {% endif %}
-
-  <!-- Website link -->
-  {% if site.social_links.website_url %}
-  <li style="display:inline-block"><a href="{{ site.social_links.website_url }}" class="icon-link">{% include icons/icon-website.html %}</a></li>
-  {% endif %}
-
+    <!-- Website link -->
+    {% if site.social_links.website_url %}
+    <li style="display:inline-block"><a href="{{ page.url | prepend: site.baseurl }}" class="icon-link">{% include icons/icon-website.html %}</a></li>
+    {% endif %}
 </ul>
 {% endif %}

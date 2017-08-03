@@ -9,10 +9,13 @@ layout: default
 	    {% for post in site.posts %}
 			<li>
 				<span class="post-meta">
-					{{ post.date | date: "%A, %B %-d, %Y" }}
+					{{ post.date | date: "%Y/%m/%d" }}
 					{% if post.tags %} 
-						• 
-				        {{ post.tags }}
+						{% if post.tags.size > 0 %}
+							• 
+							Tag{% if post.tags.size > 1 %}s{% endif %}:
+							{{ post.tags | sort | join: ", " }}
+						{% endif %}
 			        {% endif %}
 		        </span>
 				
