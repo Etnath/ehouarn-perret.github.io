@@ -6,23 +6,28 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Ehouarn on the threadmill
+title: Ehouarn on the Threadmill
 email: ehouarn.perret@outlook.com
-description: "I truly enjoy programming and like rambling about it =]"
-
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://ehouarn-perret.github.io" # the base hostname & protocol for your site
-
-# Social links 
-# uncomment the options you wish to display, and add your own URL 
-social_links: 
-  github_url: "https://github.com/ehouarn-perret/" 
-  linkedin_url: "https://www.linkedin.com/in/ehouarnperret" 
-  website_url: "http://ehouarn-perret.github.io" 
-
-github_username: ehouarn-perret
-linkedin_username: ehouarnperret
-disclaimer: The opinions and ideas expressed here are solely my own and do not reflect the views of my employer or the organizations to which I belong.
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+github_username:  ehouarn-perret
 
 # Build settings
 markdown: kramdown
+
+# 
+kramdown:
+    parse_block_html: true
+
+# Jekyll 3.3 started excluding the node_modules directory by default
+exclude: []
+
+sass:
+  load_paths:
+    - _sass
+    - node_modules
+
