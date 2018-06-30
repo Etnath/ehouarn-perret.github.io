@@ -1,0 +1,111 @@
+
+$brand-color-dark: darken($brand-color, 10%) !default;
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 350;
+}
+
+figure {
+    margin-bottom: 15px !important;
+}
+
+.page-link {
+    color: $brand-color !important;
+}
+
+
+.page-link, .site-title, .footer-heading {
+    color: $brand-color !important;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+
+P {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+a {
+    -o-transition: 300ms;
+    -ms-transition: 300ms;
+    -moz-transition: 300ms;
+    -webkit-transition: 300ms;
+    transition: 300ms;
+}
+
+.social-media-list a:hover {
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+    color: $brand-color-dark !important;
+}
+
+a:visited {
+    color: $brand-color;
+}
+
+body {
+    font-family: $base-font-family;
+}
+
+td.code {
+    padding: 0px 0px !important;
+    padding-left: 10px !important;
+}
+
+.post-meta {
+    font-size: 16px;
+}
+
+.gutter {
+    width: 40px;
+    padding: 0 0;
+    padding-left: 5px;
+    border: 0 none transparent;
+    border-right: 1px solid black;
+}
+
+pre, .highlight {
+    margin: 0px;
+    padding: 5px;
+    border: 0 none transparent;
+}
+
+.rouge-table {
+    margin-bottom: 0 !important;
+}
+
+.site-header {
+    border-top: 0 none transparent;
+}
+
+pre, code, .highlighter-rouge .highlight {
+    background-color: #eee;
+}
+
+.highlighter-rouge {
+    margin-bottom: 15px;
+}
+
+.code {
+    padding: 0px 0px 0px 0px !important;
+    
+}
+
+#nprogress .bar {
+    background: $brand-color !important;
+    min-height: 3px;
+  }
+  
+#nprogress .spinner-icon {
+    visibility: hidden;
+    border-top-color: $brand-color !important;
+    border-left-color: $brand-color !important;
+}
+  
+#nprogress .peg {
+    box-shadow: 0 0 10px $brand-color, 0 0 5px $brand-color !important;
+}
