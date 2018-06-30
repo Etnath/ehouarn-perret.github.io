@@ -10,6 +10,18 @@ Jekyll also offers powerful support for code snippets:
 {% highlight ruby linenos %}
 def print_hi(name)
   puts "Hi, #{name}"
+  puts "Hi, #{name}"
+  puts "Hi, #{name}"
+  puts "Hi, #{name}"
+  puts "Hi, #{name}"
+  puts "Hi, #{name}"
+  puts "Hi, #{name}"
+  puts "Hi, #{name}"
+  puts "Hi, #{name}"
+  puts "Hi, #{name}"
+  puts "Hi, #{name}"
+  puts "Hi, #{name}"
+  puts "Hi, #{name}"
 end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.

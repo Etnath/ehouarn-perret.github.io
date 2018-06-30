@@ -1,8 +1,25 @@
 
 $brand-color-dark: darken($brand-color, 10%) !default;
 
+html {
+    min-width: 310px;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-weight: 350;
+}
+
+@media (max-width: $content-width) {
+    table {
+        width: 100%;
+        table-layout: fixed;
+        overflow-x: scroll;
+        display: inline-block
+    }
+}
+
+td {
+    min-width: 120px;
 }
 
 figure {
@@ -19,7 +36,6 @@ figure {
     text-transform: uppercase;
     font-weight: 400;
 }
-
 
 P {
     text-align: justify;
@@ -61,7 +77,7 @@ td.code {
 }
 
 .gutter {
-    width: 40px;
+    min-width: 5px;
     padding: 0 0;
     padding-left: 5px;
     border: 0 none transparent;
@@ -70,12 +86,16 @@ td.code {
 
 pre, .highlight {
     margin: 0px;
+    margin-right: 10px;
     padding: 5px;
     border: 0 none transparent;
 }
 
 .rouge-table {
     margin-bottom: 0 !important;
+    overflow-x: inherit;
+    display: inline-block;
+    border: 0 none transparent;
 }
 
 .site-header {
@@ -92,7 +112,10 @@ pre, code, .highlighter-rouge .highlight {
 
 .code {
     padding: 0px 0px 0px 0px !important;
-    
+}
+
+td.code {
+    border: 0 none transparent;
 }
 
 #nprogress .bar {
