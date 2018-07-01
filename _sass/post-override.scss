@@ -1,6 +1,50 @@
 
 $brand-color-dark: darken($brand-color, 10%) !default;
 
+.white {
+    color: white;
+}
+
+.post-navigation-button {
+    margin: 10px; 
+    width: 110px;
+}
+
+.inline-blocked {
+    display: inline-block; 
+}
+
+.shadowed {
+    -webkit-box-shadow: 1px 1px 3px 2px rgb(204, 204, 204);
+    -moz-box-shadow: 1px 1px 3px 2px rgb(204, 204, 204);
+    box-shadow: 1px 1px 3px 2px rgb(204, 204, 204);
+}
+
+.shadowed:hover {
+    -webkit-box-shadow: 1px 1px 5px 3px rgb(204, 204, 204);
+    -moz-box-shadow: 1px 1px 5px 3px rgb(204, 204, 204);
+    box-shadow: 1px 1px 5px 3px rgb(204, 204, 204);
+}
+
+.rounded {
+    border-radius: 6px;
+}
+
+.brand-background {
+    -o-transition: 300ms;
+    -ms-transition: 300ms;
+    -moz-transition: 300ms;
+    -webkit-transition: 300ms;
+    transition: 300ms;
+
+    background-color: $brand-color;
+}
+
+.brand-background:hover {
+    background-color: $brand-color-dark !important;
+}
+
+
 .footer-disclaimer {
     color: $grey-color;
     font-style: italic;

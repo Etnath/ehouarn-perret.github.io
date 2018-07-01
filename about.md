@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hi there =]
+# Hi there!
 
 I am Ehouarn Perret, a French Software Developer who is naturally curious.
 

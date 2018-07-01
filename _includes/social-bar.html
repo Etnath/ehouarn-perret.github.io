@@ -6,73 +6,73 @@
   
     {%- if site.facebook_username -%}
       <a  href="https://www.facebook.com/{{ site.facebook_username| cgi_escape | escape }}" 
-          class="social-icon stylish-tooltip"
+          class="stylish-tooltip"
           title="Check out my Facebook profile!">
-          <i class="fab fa-facebook fa-2x"></i>
+          <i class="fab fa-facebook social-icon fa-2x"></i>
       </a>
     {%- endif -%}
 
     {%- if site.github_username -%}
       <a  href="https://github.com/{{ site.github_username| cgi_escape | escape }}"
-          class="social-icon stylish-tooltip"
+          class="stylish-tooltip"
           title="Check out my Github repositories!">
-        <i class="fab fa-github fa-2x"></i>
+        <i class="fab fa-github social-icon fa-2x"></i>
       </a>
     {%- endif -%}
     
     {%- if site.linkedin_username -%}
       <a  href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}"
-          class="social-icon stylish-tooltip" 
+          class="stylish-tooltip" 
           title="Check out my LinkedIn profile!">
-          <i class="fab fa-linkedin fa-2x"></i>
+          <i class="fab fa-linkedin social-icon fa-2x"></i>
       </a>
     {%- endif -%}
 
     {%- if site.rss -%}
       <a  href="{{ 'feed.xml' | relative_url }}"
-          class="social-icon stylish-tooltip" 
+          class="stylish-tooltip" 
           title="Subscribe to the RSS feed!">
-          <i class="fas fa-rss fa-2x"></i>
+          <i class="fas fa-rss social-icon fa-2x"></i>
       </a>
     {%- endif -%}
 
     {%- if site.email -%}
       <a  href="mailto:{{ site.email }}?subject=Hi there!"
-          class="social-icon stylish-tooltip"
+          class="stylish-tooltip"
           title="Send me an email!">
-          <i class="fas fa-envelope fa-2x"></i>
+          <i class="fas fa-envelope social-icon fa-2x"></i>
       </a>
     {%- endif -%}
 
     {%- if site.stackoverflow_username -%}
       <a  href="https://stackoverflow.com/users/{{ site.stackoverflow_username }}"
-          class="social-icon stylish-tooltip" 
+          class="stylish-tooltip" 
           title="My Stackoverflow Profile">
-          <i class="fab fa-stack-overflow fa-2x"></i>
+          <i class="fab fa-stack-overflow social-icon fa-2x"></i>
       </a>
     {%- endif -%}
 
     {%- if site.skype_username -%}
       <a  href="skype:{{ site.skype_username }}?chat"
-          class="social-icon stylish-tooltip"
+          class="stylish-tooltip"
           title="Talk to me on Skype!">
-          <i class="fab fa-skype fa-2x"></i>
+          <i class="fab fa-skype social-icon fa-2x"></i>
       </a>
     {%- endif -%}
 
     {%- if site.phone_number -%}
       <a  href="tel:{{ site.phone_number }}"
-          class="social-icon stylish-tooltip" 
+          class="stylish-tooltip" 
           title="Call me!">
-          <i class="fas fa-mobile-alt fa-2x"></i>
+          <i class="fas fa-mobile-alt social-icon fa-2x"></i>
       </a>
     {%- endif -%}
 
     {%- if site.whatsapp_username -%}
       <a  href="https://api.whatsapp.com/send?phone={{ site.whatsapp_username }}&text=Hi" 
-          class="social-icon stylish-tooltip"
+          class="stylish-tooltip"
           title="Send me a message on WhatsApp!">
-          <i class="fab fa-whatsapp fa-2x"></i>
+          <i class="fab fa-whatsapp social-icon fa-2x"></i>
       </a>
     {%- endif -%}
 

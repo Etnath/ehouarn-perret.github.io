@@ -30,9 +30,18 @@ minima:
 #header_pages:
 # - about.md
 
+# Pagination
+paginate: 2
+paginate_path: "posts/page:num"
+
 # Build settings
 theme: minima
-
+markdown: kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: :compressed
 plugins:
- - jekyll-feed
- - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
