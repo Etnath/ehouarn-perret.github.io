@@ -1,28 +1,19 @@
 title: Ehouarn on the treadmill
 author: Ehouarn Perret
-email: ehouarn.perret@outlook.com
-description: > # this means to ignore newlines until "twitter_username:"
-  Notes and ramblings about software development
+description: > 
+  Notes and ramblings about software development...
+disclaimer: > 
+  Disclaimer: Opinions expressed are solely my own and do not express the views or opinions of my employer.
 
 # social links
-github_username:  ehouarn-perret
+email: ehouarn.perret@outlook.com
+github_username: ehouarn-perret
 facebook_username: ehouarn.perret
 linkedin_username: ehouarnperret
+whatsapp_username: +33766030703
+wechat_username: ehouarnperret
+stackoverflow_username: 4636721
 rss: rss
-# youtube_username: jekyll
-# twitter_username: jekyllrb
-# dribbble_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jekyll
-# pinterest_username: jekyll
-# googleplus_username: +jekyll
-
-# Mastodon instances
-# mastodon:
-# - username: jekyll
-#   instance: example.com
-# - username: jekyll2
-#   instance: example.com
 
 show_excerpts: false # set to true to show excerpts on the homepage
 

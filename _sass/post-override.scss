@@ -1,6 +1,55 @@
 
 $brand-color-dark: darken($brand-color, 10%) !default;
 
+.footer-disclaimer {
+    color: $grey-color;
+    font-style: italic;
+}
+
+.brand-color {
+    color: $brand-color;
+}
+
+.social-icon {
+    margin: 10px;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.post-title {
+    text-align: center;
+}
+
+.post-meta {
+    text-align: center;
+    font-size: 18px !important;
+}
+
+.footer-col-wrapper {
+    margin: auto;
+}
+
+.post-list > li {
+    padding: 10px;
+    -webkit-box-shadow: 1px 1px 3px 2px rgb(204, 204, 204);
+    -moz-box-shadow: 1px 1px 3px 2px rgb(204, 204, 204);
+    box-shadow: 1px 1px 3px 2px rgb(204, 204, 204);
+    background-color: white;
+
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+}
+
+.post-list-heading {
+    @include relative-font-size(2.7);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 html {
     min-width: 310px;
 }
@@ -30,11 +79,20 @@ figure {
     color: $brand-color !important;
 }
 
-
 .page-link, .site-title, .footer-heading {
     color: $brand-color !important;
     text-transform: uppercase;
     font-weight: 400;
+}
+
+.site-title {
+    line-height: 35px;
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+
+.site-nav {
+    top: 15px;
 }
 
 P {
@@ -104,10 +162,16 @@ pre, .highlight {
 
 pre, code, .highlighter-rouge .highlight {
     background-color: #eee;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;    
 }
 
 .highlighter-rouge {
     margin-bottom: 15px;
+}
+
+code {
+    font-family: 'Roboto Mono', monospace;
 }
 
 .code {
