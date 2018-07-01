@@ -23,9 +23,10 @@
   {%- endif -%}
 
   {%- if site.whatsapp_username -%}
-    <a class="social-icon" href="whatsapp://send?text=Hello World!&phone={{ site.whatsapp_username }}"><i class="fab fa-whatsapp fa-2x"></i></a>
+    <a class="social-icon" href="whatsapp://send?text=Hello World!&phone=+{{ site.whatsapp_username }}&abid=+{{ site.whatsapp_username }}"><i class="fab fa-whatsapp fa-2x"></i></a>
   {%- endif -%}
 
   {%- if site.wechat_username -%}
     <a class="social-icon" href="weixin://dl/chat?{{ site.wechat_username }}"><i class="fab fa-weixin fa-2x"></i></a>
   {%- endif -%}
+  

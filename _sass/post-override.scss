@@ -44,6 +44,11 @@ $brand-color-dark: darken($brand-color, 10%) !default;
     border-radius: 1px;
 }
 
+.post-link {
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
 .post-list-heading {
     @include relative-font-size(2.7);
     text-align: center;
