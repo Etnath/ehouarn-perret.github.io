@@ -14,23 +14,23 @@ layout: default
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
-        <div>
-          <a class="post-link" href="{{ post.url | relative_url }}">
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          <div class="post-link-title">
             {{ post.title | escape }}
-          </a>
-        </div>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">
-          <i class="fas fa-calendar-alt"></i>
-          {{ post.date | date: date_format }}
-          •
-          <i class="fas fa-clock"></i>  
-          {%- include read-time.html -%}
-        </span>
-        
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
+          </div>
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <span class="post-meta">
+            <i class="fas fa-calendar-alt"></i>
+            {{ post.date | date: date_format }}
+            •
+            <i class="fas fa-clock"></i>  
+            {%- include read-time.html -%}
+          </span>
+            
+          {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+          {%- endif -%}
+        </a>
       </li>
       {%- endfor -%}
     </ul>

@@ -4,15 +4,10 @@ title: Resume
 permalink: /resume/
 ---
 
-My career stuff
+# Career Stuff
 
-Skills
----
+Need to fill that up =]
 
-Experience
----
-
-Education
----
+Meanwhile there is my LinkedIn profile =]
 
 

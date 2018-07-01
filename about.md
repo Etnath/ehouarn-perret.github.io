@@ -8,8 +8,5 @@ Hi there =]
 
 I am Ehouarn Perret, a French Software Developer who is naturally curious.
 
-When time allows, I am always eager to learn new things, from Machine Learning to Natural Language Processing through Cooking.
-
-
-
+When time allows, I am always eager to learn new things, from Machine Learning to Natural Language Processing through Cooking and then forget what I have learned =o...
 
