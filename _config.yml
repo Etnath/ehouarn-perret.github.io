@@ -30,6 +30,8 @@ minima:
 #header_pages:
 # - about.md
 
+
+
 # Pagination
 paginate: 2
 paginate_path: "posts/page:num"
@@ -45,3 +47,4 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate
+include: ['_pages']
