@@ -5,6 +5,27 @@ $brand-color-dark: darken($brand-color, 10%) !default;
     color: white;
 }
 
+#back-to-top-button {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+    padding: 7px 12px 7px 12px;
+    background-color: $brand-color;
+    opacity: 0.5;
+    display: none;
+}
+
+#back-to-top-button:hover {
+    -o-transition: 300ms;
+    -ms-transition: 300ms;
+    -moz-transition: 300ms;
+    -webkit-transition: 300ms;
+    transition: 300ms;
+    background-color: $brand-color-dark;
+    opacity: 1;
+}
+
 .post-navigation-button {
     margin: 10px; 
     width: 110px;
