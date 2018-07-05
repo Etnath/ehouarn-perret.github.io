@@ -14,6 +14,7 @@ $brand-color-dark: darken($brand-color, 10%) !default;
     background-color: $brand-color;
     opacity: 0.5;
     display: none;
+    z-index: 9999;
 }
 
 #back-to-top-button:hover {
@@ -97,7 +98,7 @@ $brand-color-dark: darken($brand-color, 10%) !default;
     margin: auto;
 }
 
-.post-list > li {
+.post-link {
     padding: 10px;
     -webkit-box-shadow: 1px 1px 3px 2px rgb(204, 204, 204);
     -moz-box-shadow: 1px 1px 3px 2px rgb(204, 204, 204);
@@ -119,7 +120,7 @@ $brand-color-dark: darken($brand-color, 10%) !default;
     line-height: 30px;
 }
 
-.post-list > li:hover {
+.post-link:hover {
     -webkit-box-shadow: 3px 4px 3px 4px rgb(200, 200, 200);
     -moz-box-shadow: 3px 4px 3px 4px rgb(200, 200, 200);
     box-shadow: 3px 4px 3px  4px rgb(200, 200, 200);

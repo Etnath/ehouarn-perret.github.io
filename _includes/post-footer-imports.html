@@ -1,23 +1,6 @@
 
 <script>
 
-    var defaultTippyConfig =  {
-        delay: 0,
-        arrow: true,
-        arrowType: 'round',
-        size: 'medium',
-        duration: 500,
-        animation: 'scale',
-        offset: '0, 15'
-    };
-
-    var closerTippyConfig = jQuery.extend(true, {}, defaultTippyConfig);
-    closerTippyConfig.offset = '0, 3';
-
-    // Enable stylish tooltipping on .stylish-tooltip class elements
-    tippy('.stylish-tooltip', defaultTippyConfig);
-    tippy('.stylish-tooltip-closer', closerTippyConfig);
-    
     // Mobile + Table (or not) browser check function
     window.mobileAndTabletcheck = function() {
         var check = false;
@@ -26,6 +9,24 @@
     };
 
     if (!window.mobileAndTabletcheck()) {
+
+        var defaultTippyConfig =  {
+            delay: 0,
+            arrow: true,
+            arrowType: 'round',
+            size: 'medium',
+            duration: 500,
+            animation: 'scale',
+            offset: '0, 15'
+        };
+
+        var closerTippyConfig = jQuery.extend(true, {}, defaultTippyConfig);
+        closerTippyConfig.offset = '0, 3';
+
+        // Enable stylish tooltipping on .stylish-tooltip class elements
+        tippy('.stylish-tooltip', defaultTippyConfig);
+        tippy('.stylish-tooltip-closer', closerTippyConfig);
+
         // Add nProgress animations
         NProgress.start();
         NProgress.set(0.4);
@@ -34,7 +35,6 @@
             NProgress.done();
             clearInterval(interval);
         });
-    }
 
     $(function(){ 
 
@@ -56,5 +56,6 @@
         // Supports reloading page
         onScroll();
     });
+}
 
 </script>
