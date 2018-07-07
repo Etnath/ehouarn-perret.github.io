@@ -1,6 +1,6 @@
-<div>
+<div style="margin-top: 20px;">
     {% if page.next.url %}
-        <div style="float: right;" title="{{ page.next.title }}" class="stylish-tooltip shadowed brand-background rounded inline-blocked center post-navigation-button">
+        <div title="{{ page.next.title }}" class="right stylish-tooltip-not-that-close shadowed brand-background rounded inline-blocked center post-navigation-button">
             <a href="{{ page.next.url }}" >
                 <div style="padding: 10px;">
                     <strong class="white">Next Post</strong>
@@ -10,7 +10,7 @@
     {% endif %}
 
     {% if page.previous.url %}
-        <div style="float: left;" title="{{ page.previous.title }}" class="stylish-tooltip shadowed brand-background rounded inline-blocked center post-navigation-button">
+        <div title="{{ page.previous.title }}" class="left stylish-tooltip-not-that-close shadowed brand-background rounded inline-blocked center post-navigation-button">
             <a href="{{ page.previous.url }}" >
                 <div style="padding: 10px;">
                     <strong class="white">Previous Post</strong>

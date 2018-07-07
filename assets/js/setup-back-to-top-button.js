@@ -8,7 +8,7 @@ window.setupBackToTopButton = function () {
         } 
     }
 
-    $(window).on('scroll touchmove', updateBackToTopButton); 
+    $(window).on('scroll touchmove touchstart touchend', updateBackToTopButton); 
 
     updateBackToTopButton();
 
@@ -17,5 +17,5 @@ window.setupBackToTopButton = function () {
         return false; 
     }
 
-    $('#back-to-top-button').on('click touchstart', onBackToTopButtonClick);
+    $('#back-to-top-button').on('click mousedown touchstart touchend', onBackToTopButtonClick);
 };

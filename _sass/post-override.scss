@@ -1,6 +1,15 @@
 
 $brand-color-dark: darken($brand-color, 10%) !default;
 
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
 #progress-cont {
     height: 3px;
     position: fixed;
