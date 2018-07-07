@@ -17,5 +17,5 @@ window.setupBackToTopButton = function () {
         return false; 
     }
 
-    $('#back-to-top-button').on('click mousedown touchstart touchend', onBackToTopButtonClick);
+    $('#back-to-top-button').on('click touchstart', onBackToTopButtonClick);
 };
