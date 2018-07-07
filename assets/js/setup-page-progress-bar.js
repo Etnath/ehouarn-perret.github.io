@@ -20,13 +20,13 @@ window.setupPageProgressBar = function(progressBarLocation, contentToTrack) {
     // on how far the contentToTrack elemt has been scrolled
     function updateProgressBar() {
 
-        var height = $(document).height() - $(window).height();
+        var height = $(document).height() - $(window).innerHeight();
         var percentage = Math.max(0, Math.min(1, $(window).scrollTop() / height));
 
         $progressBarElement.css("width", percentage * 100 + "%");
     }
 
-    $(window).scroll(updateProgressBar); 
+    $(window).on("scroll touchmove", updateProgressBar); 
 
     updateProgressBar();
 };

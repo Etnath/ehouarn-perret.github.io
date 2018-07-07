@@ -1,18 +1,21 @@
 window.setupBackToTopButton = function () {
+    
     function updateBackToTopButton() {
         if ($(window).scrollTop() > 50) { 
-            $('#back-to-top-button').fadeIn(); 
+            $('#back-to-top-button').fadeIn();
         } else { 
-            $('#back-to-top-button').fadeOut(); 
+            $('#back-to-top-button').fadeOut();
         } 
     }
 
-    $(window).scroll(updateBackToTopButton); 
+    $(window).on('scroll touchmove', updateBackToTopButton); 
 
     updateBackToTopButton();
 
-    $('#back-to-top-button').click(function(){ 
-        $("html, body").animate({ scrollTop: 0 }, 500); 
+    function onBackToTopButtonClick() {
+        $('html, body').animate({ scrollTop: 0 }, 500); 
         return false; 
-    }); 
+    }
+
+    $('#back-to-top-button').on('click touchstart', onBackToTopButtonClick);
 };
