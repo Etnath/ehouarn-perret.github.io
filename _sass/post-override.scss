@@ -1,6 +1,20 @@
 
 $brand-color-dark: darken($brand-color, 10%) !default;
 
+#progress-cont {
+    height: 3px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+  
+#progress-bar {
+    height: 100%;
+    background-color: $brand-color;
+    box-shadow: 0 0 10px $brand-color, 0 0 5px $brand-color;
+}
+
 .white {
     color: white;
 }
@@ -28,8 +42,9 @@ $brand-color-dark: darken($brand-color, 10%) !default;
 }
 
 .post-navigation-button {
-    margin: 10px; 
-    width: 110px;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    width: 115px;
 }
 
 .inline-blocked {
@@ -37,15 +52,15 @@ $brand-color-dark: darken($brand-color, 10%) !default;
 }
 
 .shadowed {
-    -webkit-box-shadow: 1px 1px 3px 2px rgb(204, 204, 204);
-    -moz-box-shadow: 1px 1px 3px 2px rgb(204, 204, 204);
-    box-shadow: 1px 1px 3px 2px rgb(204, 204, 204);
+    -webkit-box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.3);
 }
 
 .shadowed:hover {
-    -webkit-box-shadow: 1px 1px 5px 3px rgb(204, 204, 204);
-    -moz-box-shadow: 1px 1px 5px 3px rgb(204, 204, 204);
-    box-shadow: 1px 1px 5px 3px rgb(204, 204, 204);
+    -webkit-box-shadow: 1px 1px 5px 4px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 5px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 5px 4px rgba(0, 0, 0, 0.3);
 }
 
 .rounded {
@@ -100,15 +115,8 @@ $brand-color-dark: darken($brand-color, 10%) !default;
 
 .post-link {
     padding: 10px;
-    -webkit-box-shadow: 1px 1px 3px 2px rgb(204, 204, 204);
-    -moz-box-shadow: 1px 1px 3px 2px rgb(204, 204, 204);
-    box-shadow: 1px 1px 3px 2px rgb(204, 204, 204);
     background-color: white;
 
-    -webkit-border-radius: 1px;
-    -moz-border-radius: 1px;
-    border-radius: 1px;
-    
     -o-transition: 150ms;
     -ms-transition: 150ms;
     -moz-transition: 150ms;
@@ -116,15 +124,14 @@ $brand-color-dark: darken($brand-color, 10%) !default;
     transition: 150ms;
 }
 
+.post-link:hover {
+    transform: scale(1.02, 1.02);
+}
+
 .post-link-title {
     line-height: 30px;
 }
 
-.post-link:hover {
-    -webkit-box-shadow: 3px 4px 3px 4px rgb(200, 200, 200);
-    -moz-box-shadow: 3px 4px 3px 4px rgb(200, 200, 200);
-    box-shadow: 3px 4px 3px  4px rgb(200, 200, 200);
-}
 
 .post-list-heading {
     @include relative-font-size(2.7);
@@ -266,6 +273,7 @@ td.code {
 #nprogress .bar {
     background: $brand-color !important;
     min-height: 3px;
+    box-shadow: 0 0 10px $brand-color, 0 0 5px $brand-color;
   }
   
 #nprogress .spinner-icon {
@@ -274,6 +282,3 @@ td.code {
     border-left-color: $brand-color !important;
 }
   
-#nprogress .peg {
-    box-shadow: 0 0 10px $brand-color, 0 0 5px $brand-color !important;
-}

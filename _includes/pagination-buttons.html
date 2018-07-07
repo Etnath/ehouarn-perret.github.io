@@ -2,23 +2,21 @@
 {% if paginator.total_pages > 1 %}
     <div class="center">
         {% if paginator.previous_page %}
-            <div class="shadowed brand-background rounded inline-blocked center post-navigation-button">
+            <div style="float: right;" class="shadowed brand-background rounded inline-blocked center post-navigation-button">
                 <a href="{{ paginator.previous_page_path | relative_url | replace: '//', '/' }}" >
-                    <div class="white">
-                        <i style="vertical-align: middle; padding: 5px;" class="fa fa-chevron-left fa-2x"></i>
-                        <strong style="padding-right: 10px;">Newer</strong>
-                    </div>
+                    <div style="padding: 10px;">
+                        <strong class="white">Older Posts</strong>
+                    </div>    
                 </a>
             </div>
         {% endif %}
 
         {% if paginator.next_page %}
-            <div class="shadowed brand-background rounded inline-blocked center post-navigation-button">
+            <div style="float: left;" class="shadowed brand-background rounded inline-blocked center post-navigation-button">
                 <a href="{{ paginator.next_page_path | relative_url | replace: '//', '/' }}" >
-                    <div class="white">
-                        <strong style="padding-left: 10px;">Older</strong>
-                        <i style="vertical-align: middle; padding: 5px;" class="fa fa-chevron-right fa-2x"></i>
-                    </div>
+                    <div style="padding: 10px;">
+                        <strong class="white">Newer Posts</strong>
+                    </div>    
                 </a>
             </div>
         {% endif %}
