@@ -8,7 +8,7 @@ window.setupBackToTopButton = function () {
         } 
     }
 
-    $(window).on('scroll touchmove touchstart touchend', updateBackToTopButton); 
+    $(window).on('scroll touchmove', updateBackToTopButton); 
 
     updateBackToTopButton();
 
